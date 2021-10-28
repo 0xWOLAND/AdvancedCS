@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bhargavannem/Downloads/LASA-Air-Logistics-LASAlle-BhargavAnnem/airport.h
+string
+-
+cmath
+-
+
+/Users/bhargavannem/Downloads/LASA-Air-Logistics-LASAlle-BhargavAnnem/main.cpp
+iostream
+-
+fstream
+-
+cmath
+-
+slist.h
+/Users/bhargavannem/Downloads/LASA-Air-Logistics-LASAlle-BhargavAnnem/slist.h
+string
+-
+sstream
+-
+airport.h
+/Users/bhargavannem/Downloads/LASA-Air-Logistics-LASAlle-BhargavAnnem/airport.h
+
+/Users/bhargavannem/Downloads/LASA-Air-Logistics-LASAlle-BhargavAnnem/slist.h
+airport.h
+/Users/bhargavannem/Downloads/LASA-Air-Logistics-LASAlle-BhargavAnnem/airport.h
+
