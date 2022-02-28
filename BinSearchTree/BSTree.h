@@ -221,7 +221,7 @@ void BST::case_0(node *prnt, node *loc )
 
     {
         //update the root
-        loc->key_value = 0;
+        loc->key_value = -1;
         loc->p_right = loc->p_left = NULL;
         root = NULL;
     }
@@ -244,7 +244,7 @@ void BST::case_2(node *prnt, node *loc)
         cur = cur->p_left;
     }
     int val = cur->key_value;
-    printf("SUCCESSOR %d\n", val);
+    // printf("SUCCESSOR %d\n", val);
     // remove(val);
     if(cur->p_left == NULL && cur->p_right == NULL){
         cur->key_value = -1;
